@@ -65,4 +65,12 @@ git add .
 git commit -m "msg"
 git push -u origin main
 
-xcv
+docker build -t my-node-image .
+
+docker run -d -p 4000:800  --name my-node-container my-node-image
+
+docker build -t user-service .
+docker run -d -p 8000:800  --name user-service-container user-service
+
+
+docker run -d -p 7000:800  --name auth-service-container auth-service
