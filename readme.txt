@@ -60,7 +60,9 @@ npm install mssql
 git install
 
 git init
-git remote add origin https://github.com/anzarahmed14/User_Service_NodeJS.git
+git remote add origin https://github.com/anzarahmed14/Order_Service_NodeJS.git
 git add .
 git commit -m "msg"
 git push -u origin main
+
+xcv
